@@ -23,15 +23,6 @@ Variable types included:
 * Sequence:  `tuple`, `list`, `range`
 
 
-## Extensional materials
-**PythonBasicProgramming_22.ipynb**   
-A solid introduction into the concept and computations with numeric variable `complex`
-
-#### Required Knowledge:
-* PythonBasicProgramming_20.ipynb  
-* PythonBasicProgramming_23.ipynb
-
-
 ## Optional materials
 
 **PythonBasicProgramming_23.ipynb**  

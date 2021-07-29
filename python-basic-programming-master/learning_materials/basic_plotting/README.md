@@ -11,10 +11,3 @@ In this fourth Notebook we explain the core concept of plotting in Python, using
 * controlling the axes of a plot
 * decorating a plot with labels, title and legend
 
-## Extensions materials
-**PythonBasicProgramming_82.ipynb**   
-Introduction to using Numpy and Scipy with matplotlib to create scatterplots
-
-#### Required Knowledge:   
-* PythonBasicProgramming_20.ipynb   
-* PythonBasicProgramming_80.ipynb  
