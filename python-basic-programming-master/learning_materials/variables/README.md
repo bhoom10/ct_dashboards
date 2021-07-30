@@ -21,15 +21,3 @@ Variable types included:
 * Boolean
 * String
 * Sequence:  `tuple`, `list`, `range`
-
-
-## Optional materials
-
-**PythonBasicProgramming_23.ipynb**  
-Printing using string formatting and f-strings.
-
-**PythonBasicProgramming_25.ipynb**   
-String encoding, formatting and string operations
-
-#### Required Knowledge:   
-* PythonBasicProgramming_20.ipynb
