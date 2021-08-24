@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Variables module dashboard</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js" integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.3.min.js" integrity="sha384-3QTqdz9LyAm2i0sG5XTePsHec3UHWwVsrOL68SYRoAXsafvfAyqtQ+h440+qIBhS" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="676dcb58-46bd-4ba4-b9d2-5fdf11671e8e" data-root-id="1038"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1120">
+          {"dd738a46-e821-4133-911b-4b0e5712f386":{"defs":[],"roots":{"references":[{"attributes":{"formatter":{"id":"1043"},"major_label_policy":{"id":"1044"},"major_label_text_font_size":"15pt","minor_tick_line_color":null,"ticker":{"id":"1024"}},"id":"1023","type":"CategoricalAxis"},{"attributes":{"data":{"colors":["steelblue","steelblue"],"concepts":["Conditionals","Loops"],"counts":[6,3],"desc":["Conditionals allow making logical decisions based on a condition","Loops allow repetition of a statement multiple times based on a condition"],"totals":[6,3],"y_axis":[10.0,10.0]},"selected":{"id":"1047"},"selection_policy":{"id":"1046"}},"id":"1005","type":"ColumnDataSource"},{"attributes":{},"id":"1046","type":"UnionRenderers"},{"attributes":{},"id":"1020","type":"BasicTicker"},{"attributes":{"axis":{"id":"1019"},"grid_line_color":null,"ticker":null},"id":"1022","type":"Grid"},{"attributes":{},"id":"1044","type":"AllLabels"},{"attributes":{},"id":"1047","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"colors"},"height":{"value":0.5},"line_alpha":{"value":0.1},"line_color":{"field":"colors"},"right":{"field":"y_axis"},"y":{"field":"concepts"}},"id":"1030","type":"HBar"},{"attributes":{"axis":{"id":"1023"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1025","type":"Grid"},{"attributes":{},"id":"1024","type":"CategoricalTicker"},{"attributes":{},"id":"1043","type":"CategoricalTickFormatter"},{"attributes":{"active_multi":null,"tools":[{"id":"1006"}]},"id":"1026","type":"Toolbar"},{"attributes":{"style":{"padding-left":"20px","padding-right":"20px"},"text":"&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;\n              &lt;h3&gt;&lt;b&gt;Loops&lt;/b&gt; allow repetition of a statement multiple times based on a condition. &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;\n              &lt;b&gt;Conditionals&lt;/b&gt; allow making logical decisions based on a condition.&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/h3&gt;","width":400},"id":"1033","type":"Div"},{"attributes":{"callback":null,"tooltips":[["Score","@y_axis"],["Completed cells","@counts/@totals"],["Description","@desc"]]},"id":"1006","type":"HoverTool"},{"attributes":{"children":[{"id":"1034"}]},"id":"1037","type":"Row"},{"attributes":{"children":[{"id":"1008"},{"id":"1033"}]},"id":"1036","type":"Row"},{"attributes":{"fill_color":{"field":"colors"},"height":{"value":0.5},"line_color":{"field":"colors"},"right":{"field":"y_axis"},"y":{"field":"concepts"}},"id":"1029","type":"HBar"},{"attributes":{"align":"center","text":"Computational Thinking concepts scores","text_font_size":"25px"},"id":"1009","type":"Title"},{"attributes":{},"id":"1041","type":"AllLabels"},{"attributes":{"end":10},"id":"1011","type":"Range1d"},{"attributes":{"below":[{"id":"1019"}],"center":[{"id":"1022"},{"id":"1025"}],"height":300,"left":[{"id":"1023"}],"outline_line_color":null,"renderers":[{"id":"1031"}],"title":{"id":"1009"},"toolbar":{"id":"1026"},"toolbar_location":null,"width":700,"x_range":{"id":"1011"},"x_scale":{"id":"1015"},"y_range":{"id":"1013"},"y_scale":{"id":"1017"}},"id":"1008","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"Score out of 10","formatter":{"id":"1040"},"major_label_policy":{"id":"1041"},"major_label_text_font_size":"15pt","minor_tick_line_color":null,"ticker":{"id":"1020"}},"id":"1019","type":"LinearAxis"},{"attributes":{},"id":"1040","type":"BasicTickFormatter"},{"attributes":{},"id":"1015","type":"LinearScale"},{"attributes":{"data_source":{"id":"1005"},"glyph":{"id":"1029"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1030"},"view":{"id":"1032"}},"id":"1031","type":"GlyphRenderer"},{"attributes":{"factors":["Conditionals","Loops"],"range_padding":0.1},"id":"1013","type":"FactorRange"},{"attributes":{"children":[{"id":"1007"}]},"id":"1035","type":"Row"},{"attributes":{"background":"steelblue","height":50,"style":{"color":"white","padding-left":"30px"},"text":"&lt;h1&gt;\tModule: Variables&lt;/h1&gt;","width":1100},"id":"1007","type":"Div"},{"attributes":{"height":50,"text":"&lt;h2&gt;&lt;i&gt;ACTION&lt;/i&gt;: Start the learning materials at the first module that has a red progress bar&lt;/h2&gt;","width":900},"id":"1034","type":"Div"},{"attributes":{"children":[{"id":"1035"},{"id":"1036"},{"id":"1037"}]},"id":"1038","type":"Column"},{"attributes":{"source":{"id":"1005"}},"id":"1032","type":"CDSView"},{"attributes":{},"id":"1017","type":"CategoricalScale"}],"root_ids":["1038"]},"title":"Bokeh Application","version":"2.3.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1120').textContent;
+                  var render_items = [{"docid":"dd738a46-e821-4133-911b-4b0e5712f386","root_ids":["1038"],"roots":{"1038":"676dcb58-46bd-4ba4-b9d2-5fdf11671e8e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -9,7 +9,7 @@ c = get_config()
 c.CourseDirectory.course_id = "python_programming_course"
 
 # Update this list with other assignments you want
-c.CourseDirectory.db_assignments = [dict(name="entrance_test")]
+#c.CourseDirectory.db_assignments = [dict(name="entrance_test")]
 
 # Change the students in this list with that actual students in
 # your course
@@ -289,7 +289,7 @@ c.CourseDirectory.db_assignments = [dict(name="entrance_test")]
 #  `release`, `submitted`, `autograded`, etc. directories). Defaults to the
 #  current working directory.
 #  Default: ''
-# c.CourseDirectory.root = ''
+c.CourseDirectory.root = '/home/jupyter-bhoomika10/python_programming_course'
 
 ## The name of the directory that contains the master/instructor version of
 #  assignments. This corresponds to the `nbgrader_step` variable in the
@@ -1328,3 +1328,4 @@ c.CourseDirectory.source_directory = 'python-basic-programming-master'
 ## 
 #  See also: BaseConverter.permissions
 # c.Feedback.permissions = 0
+

@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Code Organization module dashboard</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js" integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.3.min.js" integrity="sha384-3QTqdz9LyAm2i0sG5XTePsHec3UHWwVsrOL68SYRoAXsafvfAyqtQ+h440+qIBhS" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ebabfe43-d42a-4282-96c3-d3f04b7e732e" data-root-id="1963"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2045">
+          {"4121d674-00b3-40f9-9f54-a4f47f078908":{"defs":[],"roots":{"references":[{"attributes":{"factors":["Functionals","Sequences"],"range_padding":0.1},"id":"1938","type":"FactorRange"},{"attributes":{"children":[{"id":"1932"}]},"id":"1960","type":"Row"},{"attributes":{"fill_color":{"field":"colors"},"height":{"value":0.5},"line_color":{"field":"colors"},"right":{"field":"y_axis"},"y":{"field":"concepts"}},"id":"1954","type":"HBar"},{"attributes":{"align":"center","text":"Computational Thinking concepts scores","text_font_size":"25px"},"id":"1934","type":"Title"},{"attributes":{"children":[{"id":"1933"},{"id":"1958"}]},"id":"1961","type":"Row"},{"attributes":{},"id":"1971","type":"Selection"},{"attributes":{},"id":"1942","type":"CategoricalScale"},{"attributes":{"axis":{"id":"1944"},"grid_line_color":null,"ticker":null},"id":"1947","type":"Grid"},{"attributes":{},"id":"1965","type":"AllLabels"},{"attributes":{"axis_label":"Score out of 10","formatter":{"id":"1966"},"major_label_policy":{"id":"1965"},"major_label_text_font_size":"15pt","minor_tick_line_color":null,"ticker":{"id":"1945"}},"id":"1944","type":"LinearAxis"},{"attributes":{},"id":"1969","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1966","type":"BasicTickFormatter"},{"attributes":{},"id":"1945","type":"BasicTicker"},{"attributes":{"data_source":{"id":"1930"},"glyph":{"id":"1954"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1955"},"view":{"id":"1957"}},"id":"1956","type":"GlyphRenderer"},{"attributes":{},"id":"1972","type":"UnionRenderers"},{"attributes":{},"id":"1940","type":"LinearScale"},{"attributes":{"children":[{"id":"1959"}]},"id":"1962","type":"Row"},{"attributes":{"formatter":{"id":"1969"},"major_label_policy":{"id":"1968"},"major_label_text_font_size":"15pt","minor_tick_line_color":null,"ticker":{"id":"1949"}},"id":"1948","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"colors"},"height":{"value":0.5},"line_alpha":{"value":0.1},"line_color":{"field":"colors"},"right":{"field":"y_axis"},"y":{"field":"concepts"}},"id":"1955","type":"HBar"},{"attributes":{"background":"steelblue","height":50,"style":{"color":"white","padding-left":"30px"},"text":"&lt;h1&gt;\tModule: Code organization&lt;/h1&gt;","width":1100},"id":"1932","type":"Div"},{"attributes":{"axis":{"id":"1948"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1950","type":"Grid"},{"attributes":{"style":{"padding-left":"20px","padding-right":"20px"},"text":"&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;\n              &lt;h3&gt;&lt;b&gt;Sequences&lt;/b&gt; are  an activity/task expressed as a series of individual steps.&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;\n              &lt;b&gt;Functionals&lt;/b&gt; are blocks that a program is divided into.&lt;/h3&gt;","width":400},"id":"1958","type":"Div"},{"attributes":{},"id":"1949","type":"CategoricalTicker"},{"attributes":{"callback":null,"tooltips":[["Score","@y_axis"],["Completed cells","@counts/@totals"],["Description","@desc"]]},"id":"1931","type":"HoverTool"},{"attributes":{"active_multi":null,"tools":[{"id":"1931"}]},"id":"1951","type":"Toolbar"},{"attributes":{"below":[{"id":"1944"}],"center":[{"id":"1947"},{"id":"1950"}],"height":300,"left":[{"id":"1948"}],"outline_line_color":null,"renderers":[{"id":"1956"}],"title":{"id":"1934"},"toolbar":{"id":"1951"},"toolbar_location":null,"width":700,"x_range":{"id":"1936"},"x_scale":{"id":"1940"},"y_range":{"id":"1938"},"y_scale":{"id":"1942"}},"id":"1933","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1968","type":"AllLabels"},{"attributes":{"data":{"colors":["steelblue","steelblue"],"concepts":["Functionals","Sequences"],"counts":[7,7],"desc":["Functionals are blocks that a program is divided into","Sequences are  an activity/task expressed as a series of individual steps"],"totals":[8,7],"y_axis":[8.75,10.0]},"selected":{"id":"1971"},"selection_policy":{"id":"1972"}},"id":"1930","type":"ColumnDataSource"},{"attributes":{"height":50,"text":"&lt;h2&gt;&lt;i&gt;ACTION&lt;/i&gt;: Start the learning materials at the first module that has a red progress bar&lt;/h2&gt;","width":900},"id":"1959","type":"Div"},{"attributes":{"end":10},"id":"1936","type":"Range1d"},{"attributes":{"source":{"id":"1930"}},"id":"1957","type":"CDSView"},{"attributes":{"children":[{"id":"1960"},{"id":"1961"},{"id":"1962"}]},"id":"1963","type":"Column"}],"root_ids":["1963"]},"title":"Bokeh Application","version":"2.3.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2045').textContent;
+                  var render_items = [{"docid":"4121d674-00b3-40f9-9f54-a4f47f078908","root_ids":["1963"],"roots":{"1963":"ebabfe43-d42a-4282-96c3-d3f04b7e732e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
