@@ -1,4 +1,4 @@
-This repository contains the code for the implementation of my Master thesis project  titled **Computational Thinking Dashboard For Learners in Jupyter Notebooks**. 
+This repository contains the code for the implementation of my Master thesis project  titled [**Computational Thinking Dashboard: For Learners in Jupyter Notebooks**](https://repository.tudelft.nl/islandora/object/uuid:1ed392b3-5449-439c-9421-56f127a8a0e6). A shorter version of it can be found [here](https://proceedings.open.tudelft.nl/cte-stem2022/article/view/469). 
 
 The framework created for CT assessment in this research can be integrated and reproduced easily for any Python beginners course that uses Jupyter notebooks. The steps to do so are:
 1. Setup a LogUI server following the [LogUI server documentation](https://github.com/logui-framework/server)
